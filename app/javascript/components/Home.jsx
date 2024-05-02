@@ -1,7 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import MainNavbar from "./Navbar";
 
 export default () => (
+  <div>
+  <MainNavbar />
   <div className="vw-100 vh-100 primary-color d-flex align-items-center justify-content-center">
     <div className="jumbotron jumbotron-fluid bg-transparent">
       <div className="container secondary-color">
@@ -19,5 +22,6 @@ export default () => (
         </Link>
       </div>
     </div>
+  </div>
   </div>
 );
