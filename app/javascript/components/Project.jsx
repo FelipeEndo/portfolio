@@ -26,7 +26,6 @@ const Project = () => {
   const techList = () => {
       let techList = "No technologies available";
 
-    console.log(project)
       if (project.techs.length > 0) {
         techList = project.techs
           .map((tech, index) => (

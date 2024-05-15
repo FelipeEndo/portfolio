@@ -1,23 +1,20 @@
 import React from "react";
+import Container from 'react-bootstrap/Container';
 import { Link } from "react-router-dom";
+import About from "./About";
+import MainNavbar from "./MainNavbar";
+import Skills from "./Skills";
 
 export default () => (
-  <div className="vw-100 vh-100 primary-color d-flex align-items-center justify-content-center">
-    <div className="jumbotron jumbotron-fluid bg-transparent">
-      <div className="container secondary-color">
-        <h1 className="display-4">Food Recipes</h1>
-        <p className="lead">
-          A curated list of recipes for the best homemade meal and delicacies.
-        </p>
-        <hr className="my-4" />
-        <Link
-          to="/projects"
-          className="btn btn-lg custom-button"
-          role="button"
-        >
-          View Projects
-        </Link>
+  <div>
+    <MainNavbar />
+    <Container className="justify-content-md-center">
+      <div className="mt-5">
+         <About />
       </div>
-    </div>
+      <div className="mt-5">
+      <Skills />
+      </div>
+    </Container>
   </div>
 );
