@@ -4,17 +4,34 @@ import { Link } from "react-router-dom";
 import About from "./About";
 import MainNavbar from "./MainNavbar";
 import Skills from "./Skills";
+import ProjectsSection from "./ProjectsSection";
 
 export default () => (
-  <div>
+  <div className="bg-dark-blue">
     <MainNavbar />
-    <Container className="justify-content-md-center">
-      <div className="mt-5">
+  <div className="bg-dark-blue">
+    <Container className="fluid justify-content-md-center">
+      <div>
          <About />
       </div>
-      <div className="mt-5">
-      <Skills />
+    </Container>
+   </div>
+
+  <div className="bg-light-blue">
+    <Container fluid className="justify-content-md-center">
+      <div>
+        <Skills />
       </div>
     </Container>
+   </div>
+
+  <div className="bg-dark-blue">
+    <Container fluid className="justify-content-md-center">
+      <div>
+        <ProjectsSection />
+      </div>
+    </Container>
+   </div>
+
   </div>
 );

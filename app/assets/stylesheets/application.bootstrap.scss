@@ -1,9 +1,45 @@
 @import 'bootstrap/scss/bootstrap';
 @import 'bootstrap-icons/font/bootstrap-icons';
 
+.list-group { 
+  --bs-list-group-color: white; 
+  --bs-list-group-bg: #2B3035; 
+  --bs-list-group-border-color: black; 
+  --bs-list-group-item-padding-x: 1rem; 
+  --bs-list-group-item-padding-y: 1rem; 
+  --bs-list-group-action-color: #495057; 
+  --bs-list-group-action-hover-color: black; 
+  --bs-list-group-action-hover-bg: rgba(0, 128, 0, 0.8); 
+  --bs-list-group-action-active-color: #212529; 
+  --bs-list-group-action-active-bg: #e9ecef; 
+  --bs-list-group-disabled-color: rgba(0, 0, 0, 0.7); 
+  --bs-list-group-disabled-bg: rgb(153, 238, 153); 
+  --bs-list-group-active-color: white; 
+  --bs-list-group-active-bg: black; 
+  --bs-list-group-active-border-color: black; 
+  display: flex; 
+  flex-direction: column; 
+  padding-left: 0; 
+  margin-bottom: 0; 
+  border-radius: var(--bs-list-group-border-radius); 
+} 
+
 .bg_primary-color {
   background-color: #FFFFFF;
 }
+
+.bg-dark-gradient {
+  background-image: linear-gradient(#141617, #3C5D7F);
+}
+
+.bg-dark-blue {
+  background-color: #201f25;
+}
+
+.bg-light-blue {
+  background-color: #24262C;
+}
+
 .primary-color {
   background-color: #FFFFFF;
 }

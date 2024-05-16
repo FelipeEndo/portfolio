@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export default function AboutDescriptionCard() {
   return (
     <div>
-   <Card bg="dark" text="white" style={{ width: '52rem', height: '20rem' }}>
+   <Card className="bg-light-blue" text="white" style={{ width: '52rem', height: '20rem' }}>
       <Card.Body>
         <Card.Title>About</Card.Title>
         <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>

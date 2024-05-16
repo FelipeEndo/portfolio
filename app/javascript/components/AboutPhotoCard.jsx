@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 export default function AboutPhotoCard() {
   return (
     <div className="me-5">
-      <Card style={{ width: '18rem' }}>
+      <Card className="bg-light-blue" text="white" style={{ width: '18rem' }}>
         <Card.Img variant="top" src="guy.jpg" />
         <Card.Body>
           <Card.Title>Felipe Endo</Card.Title>
@@ -14,12 +14,10 @@ export default function AboutPhotoCard() {
             bulk of the card's content.
           </Card.Text>
         </Card.Body>
-    <ListGroup className="list-group-flush">
-        <ListGroup.Item>React</ListGroup.Item>
-        <ListGroup.Item>Rails</ListGroup.Item>
-        <ListGroup.Item>VueJS</ListGroup.Item>
-        <ListGroup.Item>Ruby</ListGroup.Item>
-        <ListGroup.Item>Elixir</ListGroup.Item>
+    <ListGroup className="list-group-flush" text="white">
+        <ListGroup.Item>Linkedin</ListGroup.Item>
+        <ListGroup.Item>Email</ListGroup.Item>
+        <ListGroup.Item>Github</ListGroup.Item>
     </ListGroup>
       </Card>
     </div>
