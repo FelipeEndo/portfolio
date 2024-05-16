@@ -7,14 +7,14 @@ import Image from 'react-bootstrap/Image';
 
 export default function SocialNavbar() {
   return(
-    <Navbar className="mx-auto justify-content-around rounded-pill m-1 bg-gray" style={{ width: '40rem' }} >
+    <Navbar className="mx-auto my-5 justify-content-around rounded-pill m-1 bg-gray" style={{ width: '40rem' }} >
       <Container>
         <Nav navbarScroll className="m-auto">
           <Nav.Link href="#about">
             <img
               src="/linkedin.svg"
-              width="50"
-              height="50"
+              width="30"
+              height="30"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
             />
@@ -24,8 +24,8 @@ export default function SocialNavbar() {
           <Nav.Link href="#about">
             <img
             src="/github.svg"
-            width="50"
-            height="50"
+            width="30"
+            height="30"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
             />
@@ -35,8 +35,8 @@ export default function SocialNavbar() {
           <Nav.Link href="#about">
             <img
             src="/whatsapp.svg"
-            width="50"
-            height="50"
+            width="30"
+            height="30"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
             />
@@ -46,8 +46,8 @@ export default function SocialNavbar() {
           <Nav.Link href="#about">
             <img
             src="/telegram.svg"
-            width="50"
-            height="50"
+            width="30"
+            height="30"
             className="d-inline-block align-top"
             alt="React Bootstrap logo"
             />
