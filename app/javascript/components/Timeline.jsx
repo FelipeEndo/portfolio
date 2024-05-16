@@ -3,10 +3,11 @@ import Card from 'react-bootstrap/Card';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
-export default function ProjectsSection() {
+export default function Timeline() {
   return (
-    <div class="container">
+    <Container>
             <Row>
                 <Col className="md-12">
                     <div className="main-timeline">
@@ -65,6 +66,6 @@ export default function ProjectsSection() {
                     </div>
                 </Col>
             </Row>
-        </div>
+        </Container>
   );
 }

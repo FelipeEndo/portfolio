@@ -14,11 +14,6 @@ export default function AboutPhotoCard() {
             bulk of the card's content.
           </Card.Text>
         </Card.Body>
-    <ListGroup className="list-group-flush" text="white">
-        <ListGroup.Item>Linkedin</ListGroup.Item>
-        <ListGroup.Item>Email</ListGroup.Item>
-        <ListGroup.Item>Github</ListGroup.Item>
-    </ListGroup>
       </Card>
     </div>
   );

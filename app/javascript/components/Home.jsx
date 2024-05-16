@@ -6,6 +6,7 @@ import MainNavbar from "./MainNavbar";
 import Skills from "./Skills";
 import ProjectsSection from "./ProjectsSection";
 import Timeline from "./Timeline";
+import SocialNavbar from "./SocialNavbar";
 
 export default () => (
   <div className="bg-dark-blue">
@@ -15,6 +16,14 @@ export default () => (
     <Container className="fluid justify-content-md-center">
       <div>
          <About />
+      </div>
+    </Container>
+   </div>
+
+  <div className="bg-dark-blue pb-5 ">
+    <Container>
+      <div>
+         <SocialNavbar />
       </div>
     </Container>
    </div>
