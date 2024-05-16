@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image';
 
 export default function MainNavbar() {
   return(
-    <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary justify-content-around">
+    <Navbar fixed="top" bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary justify-content-around mb-5">
       <Container>
         <Navbar.Brand href="#home">
            <img
@@ -20,18 +20,16 @@ export default function MainNavbar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav ">
-          <Nav className="m-auto">
-            <Nav.Link href="/home">Home</Nav.Link>
+          <Nav navbarScroll className="m-auto">
+            <Nav.Link href="#about">About</Nav.Link>
           </Nav>
-          <Nav className="m-auto">
-            <Nav.Link href="/about">About</Nav.Link>
+          <Nav navbarScroll className="m-auto">
+            <Nav.Link href="#skills">Skills</Nav.Link>
           </Nav>
-          <Nav className="m-auto">
-            <Nav.Link href="/projects">Projects</Nav.Link>
+          <Nav navbarScroll className="m-auto">
+            <Nav.Link href="#projects">Projects</Nav.Link>
           </Nav>
-          <Nav className="m-auto">
-            <Nav.Link href="/contact">Contact</Nav.Link>
-          </Nav>
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

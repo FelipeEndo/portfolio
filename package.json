@@ -2,8 +2,12 @@
   "name": "app",
   "private": "true",
   "dependencies": {
+    "@fontsource/roboto": "^5.0.13",
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.4",
+    "@mui/icons-material": "^5.15.17",
+    "@mui/material": "^5.15.17",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.1",
     "bootstrap-icons": "^1.9.1",
@@ -12,7 +16,11 @@
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
-    "sass": "^1.54.9"
+    "sass": "^1.54.9",
+    "styled-components": "^6.1.11"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
   },
   "scripts": {
     "build": "esbuild app/javascript/*.* --bundle --sourcemap --format=esm --outdir=app/assets/builds --public-path=/assets",
