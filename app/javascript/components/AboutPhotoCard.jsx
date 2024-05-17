@@ -7,7 +7,7 @@ export default function AboutPhotoCard() {
                height="300"
                width="300"
                roundedCircle
-               className="mx-auto"
+               className="mx-auto img-fluid"
         />
         </div>
   );

@@ -14,8 +14,8 @@ export default function SocialNavbar() {
               src="/linkedin.svg"
               width="30"
               height="30"
-              className="d-inline-block align-top"
-              alt="React Bootstrap logo"
+              className="d-inline-block align-top img-fluid"
+              alt="Linkedin logo"
             />
            </Nav.Link>
         </Nav>
@@ -25,8 +25,8 @@ export default function SocialNavbar() {
             src="/github.svg"
             width="30"
             height="30"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
+            className="d-inline-block align-top img-fluid"
+            alt="Github logo"
             />
           </Nav.Link>
         </Nav>
@@ -36,8 +36,8 @@ export default function SocialNavbar() {
             src="/whatsapp.svg"
             width="30"
             height="30"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
+            className="d-inline-block align-top img-fluid"
+            alt="Whatsapp logo"
             />
           </Nav.Link>
         </Nav>
@@ -47,8 +47,8 @@ export default function SocialNavbar() {
             src="/telegram.svg"
             width="30"
             height="30"
-            className="d-inline-block align-top"
-            alt="React Bootstrap logo"
+            className="d-inline-block align-top img-fluid"
+            alt="Telegram logo"
             />
           </Nav.Link>
         </Nav>
