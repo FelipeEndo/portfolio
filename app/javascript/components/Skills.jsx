@@ -3,47 +3,48 @@ import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 export default function Skills() {
   return (
-    <div className="py-3 mt-5" id="skills">
-      <div className="justify-content-center mt-5" style={{ display: 'flex' }}>
-        <Card className="bg-light-blue border-0 mx-auto" text="white-50" style={{ width: '8rem' }}>
-          <Card.Img variant="top" src="ruby.svg" height="70" width="70" className="my-4" />
-          <Card.Body>
-            <Card.Title className="text-center">Ruby</Card.Title>
-          </Card.Body>
-        </Card>
+  <Container>
+    <div className="d-flex pt-3 justify-content-around">
+      <div>
+        <img src="ruby.svg" height="70" width="70" className="mx-auto" />
+        <div className="text-center text-white-50 my-2">
+          Ruby
+        </div>
+      </div>
 
-        <Card className="bg-light-blue border-0 mx-auto" text="white-50" style={{ width: '8rem' }}>
-          <Card.Img variant="top" src="docker.svg" height="70" width="70" className="my-4" />
-          <Card.Body>
-            <Card.Title className="text-center">Docker</Card.Title>
-          </Card.Body>
-        </Card>
+      <div>
+        <img src="docker.svg" height="70" width="70" className="mx-auto" />
+        <div className="text-center text-white-50 my-2">
+          Docker
+        </div>
+      </div>
 
-        <Card className="bg-light-blue border-0 mx-auto" text="white-50" style={{ width: '8rem' }}>
-          <Card.Img variant="top" src="react-2.svg" height="70" width="70" className="my-4" />
-          <Card.Body>
-            <Card.Title className="text-center">React</Card.Title>
-          </Card.Body>
-        </Card>
+      <div>
+        <img src="react-2.svg" height="70" width="70" className="mx-auto" />
+        <div className="text-center text-white-50 my-2">
+          React
+        </div>
+      </div>
 
-        <Card className="bg-light-blue border-0 mx-auto" text="white-50" style={{ width: '8rem' }}>
-          <Card.Img variant="top" src="elixir-1.svg" height="70" width="70" className="my-4" />
-          <Card.Body>
-            <Card.Title className="text-center">Elixir</Card.Title>
-          </Card.Body>
-        </Card>
+      <div>
+        <img src="elixir-1.svg" height="70" width="70" className="mx-auto" />
+        <div className="text-center text-white-50 my-2">
+          Elixir
+        </div>
+      </div>
 
-        <Card className="bg-light-blue border-0 mx-auto" text="white-50" style={{ width: '8rem' }}>
-          <Card.Img variant="top" src="vue-9.svg" height="70" width="70" className="my-4" />
-          <Card.Body>
-            <Card.Title className="text-center">VueJs</Card.Title>
-          </Card.Body>
-        </Card>
+      <div>
+        <img src="vue-9.svg" height="70" width="70" className="mx-auto" />
+        <div className="text-center text-white-50 my-2">
+          VueJS
+        </div>
       </div>
     </div>
+  </Container>
   );
 }
 

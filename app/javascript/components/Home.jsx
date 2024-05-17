@@ -7,50 +7,43 @@ import Skills from "./Skills";
 import ProjectsSection from "./ProjectsSection";
 import Timeline from "./Timeline";
 import SocialNavbar from "./SocialNavbar";
+import Introduction from "./Introduction";
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
 
 export default () => (
-  <div className="bg-dark-blue">
-    <MainNavbar />
+  <Container fluid className="bg-dark-blue">
+    <div>
+      <MainNavbar />
+    </div>
 
-  <div className="bg-dark-blue pt-5">
-    <Container className="fluid justify-content-md-center">
-      <div>
-         <About />
-      </div>
-    </Container>
-   </div>
+    <div className="bg-dark-blue" style={{ height: '5rem' }}></div>
 
-  <div className="bg-dark-blue pb-5 ">
-    <Container>
-      <div>
-         <SocialNavbar />
-      </div>
-    </Container>
-   </div>
+    <div className="d-flex" style={{ height: '60rem' }}>
+      <Introduction />
+    </div>
+    <div style={{ height: '10rem' }}>
+        <SocialNavbar />
+    </div>
 
-  <div className="bg-dark-blue">
-    <Container fluid className="justify-content-md-center">
-      <div>
+    <div className="bg-light-blue" style={{ height: '7rem' }}></div>
+
+    <div id="about">
+      <About />
+    </div>
+
+    <div id="skills" className="bg-light-blue" style={{ height: '8rem' }}>
+      <Skills />
+    </div>
+
+    <div>
+      <div id="timeline" className="pt-5">
         <Timeline />
       </div>
-    </Container>
-   </div>
+    </div>
 
-  <div className="bg-light-blue">
-    <Container fluid className="justify-content-md-center">
-      <div>
-        <Skills />
-      </div>
-    </Container>
-   </div>
-
-
-  <div className="bg-dark-blue">
-    <Container fluid className="justify-content-md-center">
-      <div>
-        <ProjectsSection />
-      </div>
-    </Container>
-   </div>
-  </div>
+    <div id="projects" className="pt-5">
+      <ProjectsSection />
+    </div>
+ </Container>
 );

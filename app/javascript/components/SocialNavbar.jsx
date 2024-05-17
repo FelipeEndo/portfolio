@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
 
 export default function SocialNavbar() {
   return(
-    <Navbar className="mx-auto my-5 justify-content-around rounded-pill m-1 bg-gray" style={{ width: '40rem' }} >
-      <Container>
-        <Nav navbarScroll className="m-auto">
+  <Container>
+    <Navbar className="d-flex justify-content-around mx-auto my-5 rounded-pill bg-gray" >
+        <Nav>
           <Nav.Link href="#about">
             <img
               src="/linkedin.svg"
@@ -20,7 +19,7 @@ export default function SocialNavbar() {
             />
            </Nav.Link>
         </Nav>
-        <Nav navbarScroll className="m-auto">
+        <Nav>
           <Nav.Link href="#about">
             <img
             src="/github.svg"
@@ -31,7 +30,7 @@ export default function SocialNavbar() {
             />
           </Nav.Link>
         </Nav>
-        <Nav navbarScroll className="m-auto">
+        <Nav>
           <Nav.Link href="#about">
             <img
             src="/whatsapp.svg"
@@ -42,7 +41,7 @@ export default function SocialNavbar() {
             />
           </Nav.Link>
         </Nav>
-        <Nav navbarScroll className="m-auto">
+        <Nav>
           <Nav.Link href="#about">
             <img
             src="/telegram.svg"
@@ -53,7 +52,7 @@ export default function SocialNavbar() {
             />
           </Nav.Link>
         </Nav>
-      </Container>
     </Navbar>
+  </Container>
   );
 }

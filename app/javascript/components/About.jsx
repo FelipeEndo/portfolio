@@ -5,10 +5,11 @@ import { Link } from "react-router-dom";
 
 export default function About() {
   return (
-  <div id="about">
-    <h1 className="text-center text-white mt-5"> About </h1>
-    <div className="justify-content-center mt-5 pb-5" style={{ display: 'flex' }}>
+  <div className="mt-5 mb-4 flex justify-content-center">
+    <div>
       <AboutPhotoCard />
+    </div>
+    <div>
       <AboutDescriptionCard />
     </div>
   </div>

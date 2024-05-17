@@ -4,12 +4,10 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 export default function AboutDescriptionCard() {
   return (
-    <div>
-   <Card className="bg-light-blue" text="white" style={{ width: '52rem', height: '20rem' }}>
+    <div className="md-12 d-flex pb-5">
+   <Card className="bg-light-blue mx-auto" text="white" style={{ width: '52rem', height: '20rem' }}>
       <Card.Body>
-        <Card.Title>About</Card.Title>
-        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
-        <Card.Text>
+        <Card.Text className="text-center fs-4">
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
 
