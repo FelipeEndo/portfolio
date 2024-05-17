@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 export default function SocialNavbar() {
   return(
   <Container>
-    <Navbar className="d-flex justify-content-around mx-auto my-5 rounded-pill bg-gray" >
+    <Navbar className="d-flex justify-content-evenly mx-auto my-5 rounded-pill bg-gray w-50" >
         <Nav>
           <Nav.Link href="#about">
             <img

@@ -26,13 +26,13 @@ export default () => (
         <SocialNavbar />
     </div>
 
-    <div className="bg-light-blue" style={{ height: '7rem' }}></div>
+    <div className="bg-light-blue" style={{ height: '10rem' }}></div>
 
     <div id="about">
       <About />
     </div>
 
-    <div id="skills" className="bg-light-blue" style={{ height: '8rem' }}>
+    <div id="skills" className="bg-light-blue" style={{ height: '10rem' }}>
       <Skills />
     </div>
 
